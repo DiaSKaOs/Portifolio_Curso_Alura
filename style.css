@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1440px) {
+header{
+    color: #1ddcf5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+body {
+    background: rgb(0, 0, 0);
+
+}
+
+main {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    left: 210px;
+    top: 160px;
+
+}
+
+main h1 {
+    color: white;    
+    font-size: 25px;
+}
+
+main p {
+    font-size: 19px;
+    word-wrap: break-word;
+
+}
+
+.bt1 {
+    position: absolute;
+    background: #1ddcf5;
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    top: 440px;
+    left: 200px;
+}
+
+.bt2 {
+    position: absolute;
+    background: #1ddcf5;
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    top: 440px;
+    left: 400px;
+}
+
+main p {
+    color: white;
+}
+
+.img1{
+    height: 350px;
+    width: 350px;
+    margin-top: 35px;
+    margin-left: 700px;
+    border-radius: 20px;
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+    header h1{
+        font-size: 30px;
+        margin-right: 170px;
+    }
+    
+    .img1{
+        margin-left:550px;
+        margin-top: 80px;
+        width: 250px;
+        height: 250px;
+    }
+
+    main{
+        left: 60px;
+        margin-top: 5px;
+        margin-left: 80px;
+    }
+    
+    main h1{
+        font-size: 20px;
+    }
+
+    main p {
+        font-size: 15px;
+    }
+
+    .bt1{
+        margin-top: 15px;
+        left: 110px;
+
+    }
+    .bt2{
+        margin-top: 15px;
+        left: 320px;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+
+    header h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .img1{
+        margin-left: 500px;
+        width: 200px;
+        height: 200px;
+    }
+    .bt1{
+        padding: 8px 40px 8px 40px;
+        margin-top: auto;
+
+    }
+    .bt2{
+        padding: 8px 40px 8px 40px;
+        margin-top: auto;
+
+    }
+ }
+ @media only screen and (max-width: 425px) {
+
+    header h1{
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: 60px;
+    }
+
+    .img1{        
+        margin-left: 100px;
+        width: 250px;
+        height: 250px;
+    }
+
+    main{
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+    
+    main h1{
+        font-size: 20px;
+    }
+
+    main p {
+        font-size: 15px;
+        white-space: nowrap;
+
+
+    }
+    .bt1{
+        padding: 8px 40px 8px 40px;
+        margin-top: 290px;
+        left: 80px;
+
+    }
+    .bt2{
+        padding: 8px 40px 8px 40px;
+        margin-top: 290px;
+        left: 260px;
+
+    }
+ }
+
+ @media only screen and (max-width: 425px) {
+    header{
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: -25px ; 
+    }
+    .img1{
+        margin-top: 70px;
+        margin-left: 90px;
+        width: 230px;
+        height: 230px;
+    }
+    main{
+        margin-left: -5px;
+        margin-top: 260px;
+    }
+
+    main h1{
+        font-size: 19px;
+    }
+
+    main p {
+        font-size: 13px;
+
+    }
+    .bt1{
+        margin-left: -30px;
+        margin-top: 230px;
+    }
+    .bt2{
+        margin-left: -20px;
+        margin-top: 230px;
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header h1{
+        font-size: 21px;
+        margin-left: 68px;
+    }
+
+    .img1{
+        margin-left: 70px;
+    }
+
+    .bt1{
+        margin-left: -45px ;
+    }
+    .bt2{
+        margin-left: -45px ;
+    }
+
+}
